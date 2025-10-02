@@ -15,7 +15,7 @@
             Options="GenerateClientInterfaces=true"
             Include="./keycloakOpenApi.json"
             Namespace="KeycloakAdmin.OpenApi"
-            OutputPath="GeneratedCode"
+            OutputPath="KeycloakOpenApiClient.cs"
     />
   </ItemGroup>
 </Project>
