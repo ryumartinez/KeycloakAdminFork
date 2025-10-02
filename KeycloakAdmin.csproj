@@ -11,7 +11,8 @@
     <PackageReference Include="NSwag.ApiDescription.Client" Version="13.0.5" />
   </ItemGroup>
   <ItemGroup>
-    <OpenApiReference 
+    <OpenApiReference
+            Options="GenerateClientInterfaces=true"
             Include="./keycloakOpenApi.json"
             Namespace="KeycloakAdmin.OpenApi"
             OutputPath="GeneratedCode"
