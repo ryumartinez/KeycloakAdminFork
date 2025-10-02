@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "microsoft.dotnet-openapi": {
+      "version": "9.0.9",
+      "commands": [
+        "dotnet-openapi"
+      ],
+      "rollForward": false
+    }
+  }
+}
