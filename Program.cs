@@ -1,7 +1,7 @@
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateSlimBuilder(args);
-
+builder.WebHost.UseUrls("http://127.0.0.1:0");
 builder.Services.ConfigureHttpJsonOptions(options =>
 {
     options.SerializerOptions.TypeInfoResolverChain.Insert(0, AppJsonSerializerContext.Default);
